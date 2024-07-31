@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.titulo {
+    background-color: grey;
+    font-family: "Quicksand", sans-serif;
+    color: rgba(0, 231, 252, 0.999);
+    text-align: center;
+}
+
+img {
+    width: 140px;
+    height: 100px;
+}
+
+.box {
+    width: auto;
+    height: 100px;
+    /* O alinhamento da <div> */
+    display: inline-block;
+    margin-right: 300px;
+    border: 10px solid rgba(128, 128, 128, 0.325);
+}
