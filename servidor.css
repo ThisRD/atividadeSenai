@@ -1,0 +1,30 @@
+body {
+  background-color: #c0c0c0;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 115px 200px;
+    margin-left: 49%;
+    background-color: #4CAF50;
+  }
+
+  .sim {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 115px 200px;
+    margin-left: 49%;
+    background-color: #4CAF50;
+  }
+

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* estilizaçao da pagina como um geral */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+    background-color: #540c0c;
+    color: white;
+    text-align: center;
+
+}
+
+/* estilização de  */
+nav {
+    list-style-type: none;
+    background-color: #b71212;
+    padding: 1%;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+a:hover {
+    background-color: #d44949;
+    border-radius: 8px;
+}
+
+.avatar img {
+    width: 250px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
