@@ -4,39 +4,74 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0%;
-    background-color: #540c0c;
+    background-color: #000000;
     color: white;
-    text-align: center;
+    padding: 10px 200px;
 
 }
 
-/* estilização de  */
+/* estilização da barra de navegação */
 nav {
-    list-style-type: none;
-    background-color: #b71212;
+    margin: 0%;
+    background-color: #333;
     padding: 1%;
     text-align: center;
     border-radius: 0 0 10px 10px;
 }
 
-li {
-    display: inline-block;
+/* alinhando os menus da barra de navegação*/
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 }
 
+/* estilizando os botões dos menus */
 a {
     text-decoration: none;
     padding: 10px 15px;
     color: white;
 }
 
-a:hover {
-    background-color: #d44949;
+/* animação basica */
+nav a:hover {
+    background-color: #cacaca;
     border-radius: 8px;
 }
+ 
+/* alinhamento do cabeçalho */
+header {
+    text-align: center;
+}
 
+/* customização da imagem */
 .avatar img {
     width: 250px;
     border-radius: 100%;
+}
+
+.avatar {
+    display: flex;
+    justify-content: start;
+}
+
+.search {
     display: inline-block;
 }
 
+.rodape>a>img {
+    width: 40px;
+}
+
+.link {
+    background-color: white;
+}
+
+.rodape {
+    display: flex;
+    justify-content: start;
+}
+
+.rodape a{
+    margin: 50px;
+}
